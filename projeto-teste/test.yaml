@@ -1,0 +1,28 @@
+nome: "Marcelo"
+idade: 26
+
+#Comentários
+objeto:
+  versão: 2
+  arquivo: "teste.txt"
+
+string_sem_aspas: texto
+texto: "Texto"
+nulo: null
+nulo_dois: ~
+
+verdadeiro: True
+verdadeiro_dois: On
+falso: False
+false_dois: Off
+
+array: [1, 2, 3]
+array_dois:
+  - 1
+  - True
+  - "Texto"
+
+objeto: {a: 1, b: 3}
+objeto_dois:
+  chave: 1
+	chave: 2
