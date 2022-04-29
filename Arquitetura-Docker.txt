@@ -1,0 +1,8 @@
+Node 1 - Manager Node
+1 - docker swarm init --advertise-addr 192.168.0.23
+2 - docker service create --name nginxswarm -p 80:80 nginx
+3 - docker service rm nginxswarm
+4 - docker service create --name nginx --replicas 3 -p 80:80 nginx
+
+Node 2 - Worker Node
+1 - docker swarm join --token SWMTKN-1-0g537cjrto8sntbj177ucp44fpjlf78udiw1vlh9kl37l8gsl1-abyj4boepe986o02r0s8y2vf8 192.168.0.28:2377
